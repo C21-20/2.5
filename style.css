@@ -1,0 +1,49 @@
+/* Стилі для контейнера */
+.container {
+    width: 200px; 
+    height: 200px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.box {
+    width: 120px; 
+    height: 120px; 
+    border: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; 
+    border-radius: 15px; 
+}
+
+
+.static {
+    background-color: #FFFF00; 
+    position: static;
+}
+
+.relative {
+    background-color: #FF0000; 
+    position: relative;
+    top: 100px;
+    right: 30px;
+}
+
+.absolute {
+    background-color: #0066CC; 
+    position: absolute;
+    top: 50px; 
+    right: 50px; 
+    z-index: 1;
+}
+
+.fixed {
+    background-color: #99FF99; 
+    position: fixed;
+    bottom: 50px; 
+    right: 50px; 
+    z-index: 2;
+}
